@@ -1,0 +1,11 @@
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\bin\Debug\CrudBasicoLinqToSql.exe.config
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\bin\Debug\baseDeDados.mdf
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\bin\Debug\baseDeDados_log.ldf
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\bin\Debug\CrudBasicoLinqToSql.exe
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\bin\Debug\CrudBasicoLinqToSql.pdb
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.csprojResolveAssemblyReference.cache
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.Properties.Resources.resources
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.csproj.GenerateResource.Cache
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.exe
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.pdb
+C:\Users\Roberto\Desktop\CRUD Basico LINQ to SQL\CrudBasicoLinqToSql\CrudBasicoLinqToSql\obj\Debug\CrudBasicoLinqToSql.frmCadastroDePessoas.resources

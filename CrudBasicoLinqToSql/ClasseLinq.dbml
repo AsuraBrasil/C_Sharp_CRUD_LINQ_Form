@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="baseDeDados" Class="ClasseLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\baseDeDados.mdf;Integrated Security=True" SettingsObjectName="CrudBasicoLinqToSql.Properties.Settings" SettingsPropertyName="baseDeDadosConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Pessoas" Member="Pessoas">
+    <Type Name="Pessoa">
+      <Column Name="IdPessoa" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SobreNome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Rua" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bairro" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cidade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Uf" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="Telefone" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Celular" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
