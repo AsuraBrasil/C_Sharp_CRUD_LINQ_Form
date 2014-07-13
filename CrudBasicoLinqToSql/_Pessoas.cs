@@ -84,7 +84,11 @@ namespace CrudBasicoLinqToSql
                 pessoa.Celular = celular.Trim();
                 dc.Pessoas.InsertOnSubmit(pessoa);
                 dc.SubmitChanges();
-
+                
+                dc.Dispose(); //DataContext são consideradas "Unidades de Trabalho, sendo assim, 
+                              //sempre que instancia-la e terminar de utiliza-la, descarte-a.
+                              //Uns falam isso por boa prática, outros por estética e outros dizem que é para limpar da cache o DataContext. Mas sei lá, aprendi assim. xD
+                              
                 return true; //Retorna verdadeiro no caso bem sucedido
             }
             catch (Exception)
@@ -109,6 +113,8 @@ namespace CrudBasicoLinqToSql
                 dc.Pessoas.DeleteOnSubmit(pessoa);
                 dc.SubmitChanges();
 
+                dc.Dispose();
+                
                 return true; //Retorna verdadeiro no caso bem sucedido
             }
             catch (Exception)
@@ -140,6 +146,8 @@ namespace CrudBasicoLinqToSql
                 pessoa.Celular = celular.Trim();
 
                 dc.SubmitChanges();
+
+                dc.Dispose();
 
                 return true;
             }
